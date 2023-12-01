@@ -5,5 +5,7 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.11.1"]
                  [superstring "3.1.0"]
+                 [tupelo "23.07.04"]
+                 [ubergraph "0.8.2"]
                  [org.clojars.hading/had-utils "2.0.0"]]
   :repl-options {:init-ns {{namespace}}})
