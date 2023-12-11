@@ -9,5 +9,8 @@
 (def test-input nil)
 (def input nil)
 
+(defn test-1 [])
 (defn main-1 [])
+
+(defn test-2 [])
 (defn main-2 [])
