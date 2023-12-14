@@ -6,8 +6,10 @@
    [superstring.core :as str]
    [clojure.set :as s]))
 
-(def test-input nil)
-(def input nil)
+(defn parse-input [file])
+
+(def test-input (parse-input "test-input.txt"))
+(def input (parse-input "input.txt"))
 
 (defn test-1 [])
 (defn main-1 [])
