@@ -4,8 +4,8 @@
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.12.0"]
-                 [superstring "3.1.0"]
-                 [tupelo "23.07.04"]
-                 [ubergraph "0.8.2"]
-                 [org.clojars.hading/had-utils "5.0.1"]]
+                 [superstring "3.2.0"]
+                 [tupelo "24.11.22"]
+                 [ubergraph "0.9.0"]
+                 [org.clojars.hading/had-utils "5.1.1"]]
   :repl-options {:init-ns {{namespace}}})
