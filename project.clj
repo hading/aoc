@@ -1,4 +1,4 @@
-(defproject org.clojars.hading/lein-template.aoc "6.2.1"
+(defproject org.clojars.hading/lein-template.aoc "6.3.0"
   :description "Leiningen template for my personal Advent of Code projects"
   :url "https://github.com/hading"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
