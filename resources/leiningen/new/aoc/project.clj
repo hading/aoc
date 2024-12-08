@@ -7,5 +7,5 @@
                  [superstring "3.2.0"]
                  [tupelo "24.11.22"]
                  [ubergraph "0.9.0"]
-                 [org.clojars.hading/had-utils "6.3.1"]]
+                 [org.clojars.hading/had-utils "6.3.2"]]
   :repl-options {:init-ns {{namespace}}})
