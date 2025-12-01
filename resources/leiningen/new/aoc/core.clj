@@ -16,7 +16,7 @@
 
 (defn test-1 []
   (main-1 test-input))
-(defn real-1
+(defn real-1 []
   (main-1 input)[])
 
 (defn main-2 [input]
