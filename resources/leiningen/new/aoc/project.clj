@@ -7,6 +7,6 @@
                  [superstring "3.2.0"]
                  [tupelo "24.11.22"]
                  [ubergraph "0.9.0"]
-                 [org.clojars.hading/had-utils "7.0.10"]]
+                 [org.clojars.hading/had-utils "7.1.0"]]
   :repl-options {:init-ns {{namespace}}}
   :java-opts ["-Djdk.attach.allowAttachSelf"])
