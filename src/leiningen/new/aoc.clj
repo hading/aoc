@@ -29,6 +29,7 @@ Accepts a group id in the project name: `lein new foo.bar/baz`"
              [".hgignore" (render "hgignore" data)]
              ["src/{{nested-dirs}}.clj" (render "core.clj" data)]
              ["test-input.txt" (render "test-input.txt")]
+             ["input.txt" (render "input.txt")]
              ["test/{{nested-dirs}}_test.clj" (render "test.clj" data)]
              ["LICENSE" (render "LICENSE" data)]
              ["CHANGELOG.md" (render "CHANGELOG.md" data)]
