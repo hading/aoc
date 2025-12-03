@@ -11,18 +11,20 @@
 (def test-input (parse-input "test-input.txt"))
 (def input (parse-input "input.txt"))
 
-(defn main-1 [input]
+(defn run-1 [input]
   input)
 
 (defn test-1 []
-  (main-1 test-input))
-(defn real-1 []
-  (main-1 input)[])
+  (run-1 test-input))
 
-(defn main-2 [input]
+(defn main-1 []
+  (run-1 input))
+
+(defn run-2 [input]
   input)
 
 (defn test-2 []
-  (main-2 test-input))
-(defn real-2 []
-  (main-2 input))
+  (run-2 test-input))
+
+(defn main-2 []
+  (run-2 input))
